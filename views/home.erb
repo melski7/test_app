@@ -1,0 +1,23 @@
+
+
+
+<% nav_routes = ["taco",  "home", "home1", "food"] %>
+<nav>	 
+	<ul>
+	<% nav_routes.each do |route| %>
+		<li>
+		<a href="/<%= route %>"><%= route %></a>
+		</li>
+
+<% end %>
+	</ul>
+</nav>
+flash[:notice] = "Whaudup Doe; Sign in!"
+<body>
+	<p> HELLO! <%= current_user.email %> </p>
+</body>
+
+
+HW
+create schema for Darling Movers?
+create schema for 9gag

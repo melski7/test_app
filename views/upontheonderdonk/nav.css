@@ -1,0 +1,61 @@
+nav li {
+	display: inline;
+	padding-left: 10px;
+
+}
+
+nav a {
+	color: purple;
+	border: 15px;
+	padding: 15px;
+	background-color: 000231;
+	text-decoration: none;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+
+}
+
+nav a:hover {
+	background-color: aqua;
+}
+
+
+nav {
+	margin-top: 30px; 
+}
+
+body{
+	background-color: 000231;
+	background-image: url('uoto.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*
+{
+    margin:0;padding:0;
+}
+html,body, .sideBar, .content
+{
+    height: 100%;
+}
+h1
+{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sideBar
+{
+    float:left;
+    width: 200px;
+    height: 350px;
+    background: lightgrey;
+    margin: 90px;
+}
+.content
+{
+    overflow:hidden;
+    color: white; 
+}
