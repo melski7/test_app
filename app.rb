@@ -8,7 +8,7 @@ configure(:development) {
 	set :database, "sqlite3:///test_app.sqlite3"
 }
 
-set :database, "sqlite3:///test_app.sqlite3"
+
 set :sessions, true
 use Rack::Flash, :sweep => true
 require "./models"
